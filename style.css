@@ -107,3 +107,34 @@ footer{
 .div-2 p{
    width: fit-content;
 }
+
+@media only screen and (max-width:600px) {
+    *{
+        font-size:13px ;
+    }
+    .login{
+        width:100vw;
+       margin-left: 0;
+    }
+    .serch .div-img{
+        max-width: fit-content;
+    }
+    .serch img{
+        width: 50vw;
+    }
+    .div-input{
+        max-width:fit-content;
+        display: flex;
+     }
+     .div-input .fa-magnifying-glass{
+        width: 50vw;
+     }
+     .div-input .fa-microphone{
+        width: 50%;
+        margin-left: 0px;
+        margin-right: 300px;
+     }
+     .div-2 p{
+        padding: 5px;
+     }
+  }
